@@ -1,3 +1,4 @@
 full_dags_bash_operator.py
 # dags_email_operator.py
 docker-compose.yaml
+.env
