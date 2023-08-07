@@ -18,6 +18,5 @@ with DAG(
         print(some_input)
     
     python_task_1 = print_context("task_decorator 실행")
-        
     python_task_1
     
