@@ -2,3 +2,5 @@ full_dags_bash_operator.py
 # dags_email_operator.py
 docker-compose.yaml
 .env
+dags_seoul_api_corona.py
+seoul_api_to_csv_operator.py
