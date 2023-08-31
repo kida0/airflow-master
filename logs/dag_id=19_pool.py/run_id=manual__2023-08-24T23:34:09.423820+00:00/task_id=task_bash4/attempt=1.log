@@ -1,0 +1,16 @@
+[2023-08-24T23:35:20.725+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 19_pool.py.task_bash4 manual__2023-08-24T23:34:09.423820+00:00 [queued]>
+[2023-08-24T23:35:20.742+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 19_pool.py.task_bash4 manual__2023-08-24T23:34:09.423820+00:00 [queued]>
+[2023-08-24T23:35:20.742+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-24T23:35:20.766+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): task_bash4> on 2023-08-24 23:34:09.423820+00:00
+[2023-08-24T23:35:20.774+0000] {standard_task_runner.py:57} INFO - Started process 365 to run task
+[2023-08-24T23:35:20.778+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '19_pool.py', 'task_bash4', 'manual__2023-08-24T23:34:09.423820+00:00', '--job-id', '238', '--raw', '--subdir', 'DAGS_FOLDER/19_pool.py', '--cfg-path', '/tmp/tmpv40lh5c1']
+[2023-08-24T23:35:20.779+0000] {standard_task_runner.py:85} INFO - Job 238: Subtask task_bash4
+[2023-08-24T23:35:20.836+0000] {task_command.py:410} INFO - Running <TaskInstance: 19_pool.py.task_bash4 manual__2023-08-24T23:34:09.423820+00:00 [running]> on host 8c493a5ffb5d
+[2023-08-24T23:35:20.939+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='19_pool.py' AIRFLOW_CTX_TASK_ID='task_bash4' AIRFLOW_CTX_EXECUTION_DATE='2023-08-24T23:34:09.423820+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-24T23:34:09.423820+00:00'
+[2023-08-24T23:35:20.940+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-24T23:35:20.942+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 30']
+[2023-08-24T23:35:20.959+0000] {subprocess.py:86} INFO - Output:
+[2023-08-24T23:35:50.964+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-24T23:35:50.997+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=19_pool.py, task_id=task_bash4, execution_date=20230824T233409, start_date=20230824T233520, end_date=20230824T233550
+[2023-08-24T23:35:51.036+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-24T23:35:51.059+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,83 @@
+[2023-08-18T02:20:37.528+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_poke manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:20:37.542+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_poke manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:20:37.542+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:20:37.563+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_poke> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:20:37.572+0000] {standard_task_runner.py:57} INFO - Started process 352 to run task
+[2023-08-18T02:20:37.575+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_poke', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmp4do_9xpk']
+[2023-08-18T02:20:37.576+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask sensor_task_by_poke
+[2023-08-18T02:20:37.668+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_poke manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:20:37.821+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_poke' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:20:37.822+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:20:37.823+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmped2w19vd//tmp/***tmped2w19vd/sensor_task_by_poke_nry8dfv
+[2023-08-18T02:20:37.824+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE &&
+            if [ -f $FILE ]; then
+                exit 0
+            else
+                exit 1
+            fi
+[2023-08-18T02:20:37.841+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:20:37.844+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:20:37.844+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:20:37.845+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:21:07.870+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:21:07.873+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpdcs352b9//tmp/***tmpdcs352b9/sensor_task_by_pokello8nm6u
+[2023-08-18T02:21:07.873+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE &&
+            if [ -f $FILE ]; then
+                exit 0
+            else
+                exit 1
+            fi
+[2023-08-18T02:21:07.892+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:21:07.893+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:21:07.894+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:21:07.894+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:21:37.919+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:21:37.920+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpt99vvxac//tmp/***tmpt99vvxac/sensor_task_by_poke73j_4zwz
+[2023-08-18T02:21:37.921+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE &&
+            if [ -f $FILE ]; then
+                exit 0
+            else
+                exit 1
+            fi
+[2023-08-18T02:21:37.943+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:21:37.944+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:21:37.945+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:21:37.945+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:22:07.976+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:22:07.978+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmp9v33rzvr//tmp/***tmp9v33rzvr/sensor_task_by_poke1xldf1uw
+[2023-08-18T02:22:07.978+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE &&
+            if [ -f $FILE ]; then
+                exit 0
+            else
+                exit 1
+            fi
+[2023-08-18T02:22:07.993+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:22:07.994+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:22:07.995+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:22:07.995+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:22:38.025+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:22:38.027+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpjnhodmxx//tmp/***tmpjnhodmxx/sensor_task_by_pokeeiz6w4ri
+[2023-08-18T02:22:38.028+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE &&
+            if [ -f $FILE ]; then
+                exit 0
+            else
+                exit 1
+            fi
+[2023-08-18T02:22:38.043+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:22:38.044+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:22:38.044+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:22:38.045+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:22:38.046+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 242, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 120.22486748200026 seconds exceeds the specified timeout of 120.
+[2023-08-18T02:22:38.061+0000] {taskinstance.py:1350} INFO - Immediate failure requested. Marking task as FAILED. dag_id=dags_bash_sensor, task_id=sensor_task_by_poke, execution_date=20230818T022035, start_date=20230818T022037, end_date=20230818T022238
+[2023-08-18T02:22:38.103+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 13 for task sensor_task_by_poke (Sensor has timed out; run duration of 120.22486748200026 seconds exceeds the specified timeout of 120.; 352)
+[2023-08-18T02:22:38.153+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-18T02:22:38.205+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

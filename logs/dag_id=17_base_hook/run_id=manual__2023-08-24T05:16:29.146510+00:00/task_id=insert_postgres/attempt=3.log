@@ -1,0 +1,28 @@
+[2023-08-24T05:18:22.385+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 17_base_hook.insert_postgres manual__2023-08-24T05:16:29.146510+00:00 [queued]>
+[2023-08-24T05:18:22.397+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 17_base_hook.insert_postgres manual__2023-08-24T05:16:29.146510+00:00 [queued]>
+[2023-08-24T05:18:22.398+0000] {taskinstance.py:1308} INFO - Starting attempt 3 of 3
+[2023-08-24T05:18:22.427+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): insert_postgres> on 2023-08-24 05:16:29.146510+00:00
+[2023-08-24T05:18:22.436+0000] {standard_task_runner.py:57} INFO - Started process 1302 to run task
+[2023-08-24T05:18:22.439+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '17_base_hook', 'insert_postgres', 'manual__2023-08-24T05:16:29.146510+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/17_base_hook.py', '--cfg-path', '/tmp/tmpqs51lks7']
+[2023-08-24T05:18:22.440+0000] {standard_task_runner.py:85} INFO - Job 219: Subtask insert_postgres
+[2023-08-24T05:18:22.498+0000] {task_command.py:410} INFO - Running <TaskInstance: 17_base_hook.insert_postgres manual__2023-08-24T05:16:29.146510+00:00 [running]> on host 8c493a5ffb5d
+[2023-08-24T05:18:22.604+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='17_base_hook' AIRFLOW_CTX_TASK_ID='insert_postgres' AIRFLOW_CTX_EXECUTION_DATE='2023-08-24T05:16:29.146510+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-24T05:16:29.146510+00:00'
+[2023-08-24T05:18:22.606+0000] {custom_postgres_hook.py:34} INFO - NumCorona에 /opt/***/files/corona/20230824/num_corona.csv을 적재합니다
+[2023-08-24T05:18:22.617+0000] {base.py:73} INFO - Using connection ID 'conn-custom-postgres' for task execution.
+[2023-08-24T05:18:22.617+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/17_base_hook.py", line 18, in insert_postgres
+    table=table, file_name=file_name, delimiter=",", is_header=True, is_replace=True)
+  File "/opt/airflow/plugins/hooks/custom_postgres_hook.py", line 35, in bulk_load
+    self.get_conn()
+  File "/opt/airflow/plugins/hooks/custom_postgres_hook.py", line 14, in get_conn
+    self.user = conn.user
+AttributeError: 'Connection' object has no attribute 'user'
+[2023-08-24T05:18:22.628+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=17_base_hook, task_id=insert_postgres, execution_date=20230824T051629, start_date=20230824T051822, end_date=20230824T051822
+[2023-08-24T05:18:22.646+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 219 for task insert_postgres ('Connection' object has no attribute 'user'; 1302)
+[2023-08-24T05:18:22.692+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-24T05:18:22.720+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

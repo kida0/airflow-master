@@ -1,0 +1,32 @@
+[2023-08-23T23:13:55.502+0000] {processor.py:157} INFO - Started process (PID=4805) to work on /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:13:55.503+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/10_branch_python_operator.py for tasks to queue
+[2023-08-23T23:13:55.504+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:13:55.504+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:13:55.509+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:13:55.508+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/10_branch_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/10_branch_python_operator.py", line 32, in <module>
+    python_callable=random_game
+NameError: name 'random_game' is not defined
+[2023-08-23T23:13:55.510+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:13:55.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10_branch_python_operator.py took 0.034 seconds
+[2023-08-23T23:14:09.876+0000] {processor.py:157} INFO - Started process (PID=4829) to work on /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:14:09.878+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/10_branch_python_operator.py for tasks to queue
+[2023-08-23T23:14:09.879+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:09.878+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:14:09.884+0000] {processor.py:836} INFO - DAG(s) dict_keys(['10_branch_python_operator']) retrieved from /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:14:10.019+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:10.018+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:10_branch_python_operator
+[2023-08-23T23:14:10.037+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:10.036+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:10_branch_python_operator
+[2023-08-23T23:14:10.050+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:10.050+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:10_branch_python_operator
+[2023-08-23T23:14:10.072+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:10.071+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-23T23:14:10.088+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:10.088+0000] {dag.py:2763} INFO - Creating ORM DAG for 10_branch_python_operator
+[2023-08-23T23:14:10.102+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:10.102+0000] {dag.py:3508} INFO - Setting next_dagrun for 10_branch_python_operator to None, run_after=None
+[2023-08-23T23:14:10.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10_branch_python_operator.py took 0.261 seconds
+[2023-08-23T23:14:40.238+0000] {processor.py:157} INFO - Started process (PID=4888) to work on /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:14:40.239+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/10_branch_python_operator.py for tasks to queue
+[2023-08-23T23:14:40.240+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:40.240+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:14:40.246+0000] {processor.py:836} INFO - DAG(s) dict_keys(['10_branch_python_operator']) retrieved from /opt/airflow/dags/10_branch_python_operator.py
+[2023-08-23T23:14:40.276+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:40.276+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-23T23:14:40.322+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:14:40.322+0000] {dag.py:3508} INFO - Setting next_dagrun for 10_branch_python_operator to None, run_after=None
+[2023-08-23T23:14:40.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10_branch_python_operator.py took 0.113 seconds

@@ -1,0 +1,42 @@
+[2023-08-31T03:16:24.488+0000] {processor.py:157} INFO - Started process (PID=45) to work on /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:16:24.489+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/17_base_hook.py for tasks to queue
+[2023-08-31T03:16:24.490+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:24.490+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:16:24.498+0000] {processor.py:836} INFO - DAG(s) dict_keys(['17_base_hook']) retrieved from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:16:24.548+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:24.548+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:24.584+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:24.584+0000] {dag.py:3508} INFO - Setting next_dagrun for 17_base_hook to None, run_after=None
+[2023-08-31T03:16:24.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/17_base_hook.py took 0.132 seconds
+[2023-08-31T03:16:54.817+0000] {processor.py:157} INFO - Started process (PID=116) to work on /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:16:54.819+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/17_base_hook.py for tasks to queue
+[2023-08-31T03:16:54.820+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:54.820+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:16:54.827+0000] {processor.py:836} INFO - DAG(s) dict_keys(['17_base_hook']) retrieved from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:16:54.855+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:54.854+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:54.889+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:54.889+0000] {dag.py:3508} INFO - Setting next_dagrun for 17_base_hook to None, run_after=None
+[2023-08-31T03:16:54.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/17_base_hook.py took 0.100 seconds
+[2023-08-31T03:17:25.392+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:17:25.392+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/17_base_hook.py for tasks to queue
+[2023-08-31T03:17:25.393+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.393+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:17:25.398+0000] {processor.py:836} INFO - DAG(s) dict_keys(['17_base_hook']) retrieved from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:17:25.427+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.426+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:25.462+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.462+0000] {dag.py:3508} INFO - Setting next_dagrun for 17_base_hook to None, run_after=None
+[2023-08-31T03:17:25.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/17_base_hook.py took 0.100 seconds
+[2023-08-31T03:17:56.076+0000] {processor.py:157} INFO - Started process (PID=258) to work on /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:17:56.078+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/17_base_hook.py for tasks to queue
+[2023-08-31T03:17:56.079+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.079+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:17:56.084+0000] {processor.py:836} INFO - DAG(s) dict_keys(['17_base_hook']) retrieved from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:17:56.111+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.111+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:56.146+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.146+0000] {dag.py:3508} INFO - Setting next_dagrun for 17_base_hook to None, run_after=None
+[2023-08-31T03:17:56.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/17_base_hook.py took 0.101 seconds
+[2023-08-31T03:18:26.694+0000] {processor.py:157} INFO - Started process (PID=329) to work on /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:18:26.698+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/17_base_hook.py for tasks to queue
+[2023-08-31T03:18:26.699+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:26.699+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:18:26.706+0000] {processor.py:836} INFO - DAG(s) dict_keys(['17_base_hook']) retrieved from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:18:26.751+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:26.750+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:26.807+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:26.807+0000] {dag.py:3508} INFO - Setting next_dagrun for 17_base_hook to None, run_after=None
+[2023-08-31T03:18:26.856+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/17_base_hook.py took 0.166 seconds
+[2023-08-31T03:18:57.185+0000] {processor.py:157} INFO - Started process (PID=400) to work on /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:18:57.187+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/17_base_hook.py for tasks to queue
+[2023-08-31T03:18:57.188+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.188+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:18:57.198+0000] {processor.py:836} INFO - DAG(s) dict_keys(['17_base_hook']) retrieved from /opt/airflow/dags/17_base_hook.py
+[2023-08-31T03:18:57.237+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.237+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:57.283+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.282+0000] {dag.py:3508} INFO - Setting next_dagrun for 17_base_hook to None, run_after=None
+[2023-08-31T03:18:57.322+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/17_base_hook.py took 0.141 seconds

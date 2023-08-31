@@ -1,0 +1,42 @@
+[2023-08-31T03:16:25.376+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/06_template.py
+[2023-08-31T03:16:25.378+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/06_template.py for tasks to queue
+[2023-08-31T03:16:25.380+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.379+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/06_template.py
+[2023-08-31T03:16:25.395+0000] {processor.py:836} INFO - DAG(s) dict_keys(['06_template']) retrieved from /opt/airflow/dags/06_template.py
+[2023-08-31T03:16:25.435+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.435+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:25.478+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.478+0000] {dag.py:3508} INFO - Setting next_dagrun for 06_template to 2023-08-02T15:00:00+00:00, run_after=2023-08-31T15:00:00+00:00
+[2023-08-31T03:16:25.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/06_template.py took 0.141 seconds
+[2023-08-31T03:16:55.628+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/06_template.py
+[2023-08-31T03:16:55.630+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/06_template.py for tasks to queue
+[2023-08-31T03:16:55.630+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.630+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/06_template.py
+[2023-08-31T03:16:55.639+0000] {processor.py:836} INFO - DAG(s) dict_keys(['06_template']) retrieved from /opt/airflow/dags/06_template.py
+[2023-08-31T03:16:55.667+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.666+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:55.702+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.702+0000] {dag.py:3508} INFO - Setting next_dagrun for 06_template to 2023-08-02T15:00:00+00:00, run_after=2023-08-31T15:00:00+00:00
+[2023-08-31T03:16:55.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/06_template.py took 0.364 seconds
+[2023-08-31T03:17:26.291+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/06_template.py
+[2023-08-31T03:17:26.292+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/06_template.py for tasks to queue
+[2023-08-31T03:17:26.294+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/06_template.py
+[2023-08-31T03:17:26.305+0000] {processor.py:836} INFO - DAG(s) dict_keys(['06_template']) retrieved from /opt/airflow/dags/06_template.py
+[2023-08-31T03:17:26.347+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.347+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:26.398+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.397+0000] {dag.py:3508} INFO - Setting next_dagrun for 06_template to 2023-08-02T15:00:00+00:00, run_after=2023-08-31T15:00:00+00:00
+[2023-08-31T03:17:26.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/06_template.py took 0.166 seconds
+[2023-08-31T03:17:57.007+0000] {processor.py:157} INFO - Started process (PID=268) to work on /opt/airflow/dags/06_template.py
+[2023-08-31T03:17:57.009+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/06_template.py for tasks to queue
+[2023-08-31T03:17:57.010+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:57.009+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/06_template.py
+[2023-08-31T03:17:57.018+0000] {processor.py:836} INFO - DAG(s) dict_keys(['06_template']) retrieved from /opt/airflow/dags/06_template.py
+[2023-08-31T03:17:57.045+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:57.045+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:57.081+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:57.080+0000] {dag.py:3508} INFO - Setting next_dagrun for 06_template to 2023-08-02T15:00:00+00:00, run_after=2023-08-31T15:00:00+00:00
+[2023-08-31T03:17:57.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/06_template.py took 0.105 seconds
+[2023-08-31T03:18:27.745+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/06_template.py
+[2023-08-31T03:18:27.746+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/06_template.py for tasks to queue
+[2023-08-31T03:18:27.748+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.747+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/06_template.py
+[2023-08-31T03:18:27.759+0000] {processor.py:836} INFO - DAG(s) dict_keys(['06_template']) retrieved from /opt/airflow/dags/06_template.py
+[2023-08-31T03:18:27.807+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.806+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:27.861+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.860+0000] {dag.py:3508} INFO - Setting next_dagrun for 06_template to 2023-08-02T15:00:00+00:00, run_after=2023-08-31T15:00:00+00:00
+[2023-08-31T03:18:27.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/06_template.py took 0.171 seconds
+[2023-08-31T03:18:57.985+0000] {processor.py:157} INFO - Started process (PID=410) to work on /opt/airflow/dags/06_template.py
+[2023-08-31T03:18:57.987+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/06_template.py for tasks to queue
+[2023-08-31T03:18:57.988+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.988+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/06_template.py
+[2023-08-31T03:18:58.004+0000] {processor.py:836} INFO - DAG(s) dict_keys(['06_template']) retrieved from /opt/airflow/dags/06_template.py
+[2023-08-31T03:18:58.042+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:58.041+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:58.088+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:58.088+0000] {dag.py:3508} INFO - Setting next_dagrun for 06_template to 2023-08-02T15:00:00+00:00, run_after=2023-08-31T15:00:00+00:00
+[2023-08-31T03:18:58.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/06_template.py took 0.146 seconds

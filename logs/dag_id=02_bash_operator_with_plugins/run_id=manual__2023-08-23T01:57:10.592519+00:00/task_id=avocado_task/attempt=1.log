@@ -1,0 +1,17 @@
+[2023-08-23T01:57:14.729+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 02_bash_operator_with_plugins.avocado_task manual__2023-08-23T01:57:10.592519+00:00 [queued]>
+[2023-08-23T01:57:14.741+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 02_bash_operator_with_plugins.avocado_task manual__2023-08-23T01:57:10.592519+00:00 [queued]>
+[2023-08-23T01:57:14.741+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-23T01:57:14.768+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): avocado_task> on 2023-08-23 01:57:10.592519+00:00
+[2023-08-23T01:57:14.775+0000] {standard_task_runner.py:57} INFO - Started process 1251 to run task
+[2023-08-23T01:57:14.779+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '02_bash_operator_with_plugins', 'avocado_task', 'manual__2023-08-23T01:57:10.592519+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/02_bash_operator_with_plugins.py', '--cfg-path', '/tmp/tmpuoz_yw6i']
+[2023-08-23T01:57:14.780+0000] {standard_task_runner.py:85} INFO - Job 120: Subtask avocado_task
+[2023-08-23T01:57:14.833+0000] {task_command.py:410} INFO - Running <TaskInstance: 02_bash_operator_with_plugins.avocado_task manual__2023-08-23T01:57:10.592519+00:00 [running]> on host 05c492c53b17
+[2023-08-23T01:57:14.951+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='02_bash_operator_with_plugins' AIRFLOW_CTX_TASK_ID='avocado_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-23T01:57:10.592519+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-23T01:57:10.592519+00:00'
+[2023-08-23T01:57:14.953+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-23T01:57:14.954+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/opt/***/plugins/shell/select_fruit.sh AVOCADO']
+[2023-08-23T01:57:14.969+0000] {subprocess.py:86} INFO - Output:
+[2023-08-23T01:57:14.971+0000] {subprocess.py:93} INFO - Hi Nothing!
+[2023-08-23T01:57:14.972+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-23T01:57:15.002+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=02_bash_operator_with_plugins, task_id=avocado_task, execution_date=20230823T015710, start_date=20230823T015714, end_date=20230823T015715
+[2023-08-23T01:57:15.030+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-23T01:57:15.055+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

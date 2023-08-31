@@ -1,0 +1,102 @@
+[2023-08-24T06:11:15.083+0000] {processor.py:157} INFO - Started process (PID=16920) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:11:15.083+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:11:15.084+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:11:15.090+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:11:15.221+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.221+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:18_bash_sensor
+[2023-08-24T06:11:15.239+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.239+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:18_bash_sensor
+[2023-08-24T06:11:15.252+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.252+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:18_bash_sensor
+[2023-08-24T06:11:15.274+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.274+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:11:15.289+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.289+0000] {dag.py:2763} INFO - Creating ORM DAG for 18_bash_sensor
+[2023-08-24T06:11:15.303+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:15.303+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:11:15.334+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.255 seconds
+[2023-08-24T06:11:45.649+0000] {processor.py:157} INFO - Started process (PID=16990) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:11:45.651+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:11:45.652+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:45.651+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:11:45.658+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:11:45.690+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:45.690+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:11:45.724+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:11:45.724+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:11:45.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.110 seconds
+[2023-08-24T06:12:16.085+0000] {processor.py:157} INFO - Started process (PID=17061) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:12:16.090+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:12:16.091+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:12:16.090+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:12:16.100+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:12:16.146+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:12:16.146+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:12:16.186+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:12:16.186+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:12:16.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.137 seconds
+[2023-08-24T06:12:46.514+0000] {processor.py:157} INFO - Started process (PID=17131) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:12:46.516+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:12:46.518+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:12:46.517+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:12:46.525+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:12:46.571+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:12:46.571+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:12:46.619+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:12:46.619+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:12:46.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.148 seconds
+[2023-08-24T06:13:16.716+0000] {processor.py:157} INFO - Started process (PID=17201) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:13:16.718+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:13:16.719+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:13:16.719+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:13:16.725+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:13:16.757+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:13:16.756+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:13:16.787+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:13:16.787+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:13:16.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.102 seconds
+[2023-08-24T06:13:46.964+0000] {processor.py:157} INFO - Started process (PID=17271) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:13:46.964+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:13:46.965+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:13:46.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:13:46.970+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:13:46.998+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:13:46.997+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:13:47.034+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:13:47.034+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:13:47.066+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.106 seconds
+[2023-08-24T06:14:17.095+0000] {processor.py:157} INFO - Started process (PID=17341) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:14:17.100+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:14:17.101+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:14:17.101+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:14:17.106+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:14:17.135+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:14:17.135+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:14:17.165+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:14:17.164+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:14:17.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.104 seconds
+[2023-08-24T06:14:47.553+0000] {processor.py:157} INFO - Started process (PID=17411) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:14:47.554+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:14:47.555+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:14:47.555+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:14:47.562+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:14:47.595+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:14:47.595+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:14:47.629+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:14:47.628+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:14:47.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.106 seconds
+[2023-08-24T06:15:18.477+0000] {processor.py:157} INFO - Started process (PID=17482) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:15:18.478+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:15:18.478+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:15:18.478+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:15:18.483+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:15:18.513+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:15:18.513+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:15:18.551+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:15:18.551+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:15:18.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.106 seconds
+[2023-08-24T06:15:48.636+0000] {processor.py:157} INFO - Started process (PID=17552) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:15:48.642+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:15:48.643+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:15:48.643+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:15:48.649+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:15:48.681+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:15:48.680+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:15:48.714+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:15:48.714+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:15:48.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.112 seconds
+[2023-08-24T06:16:18.996+0000] {processor.py:157} INFO - Started process (PID=17622) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:18.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:16:18.998+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:18.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:19.008+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:19.040+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:19.040+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:16:19.076+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:19.076+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:16:19.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.116 seconds
+[2023-08-24T06:16:49.634+0000] {processor.py:157} INFO - Started process (PID=17692) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:49.635+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:16:49.636+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:49.635+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:49.642+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:49.672+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:49.672+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:16:49.703+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:49.702+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:16:49.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.102 seconds
+[2023-08-24T06:16:55.951+0000] {processor.py:157} INFO - Started process (PID=17711) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:55.953+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:16:55.954+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:55.953+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:55.965+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:16:56.000+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:55.999+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:16:56.035+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:16:56.034+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:16:56.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.118 seconds
+[2023-08-24T06:17:26.326+0000] {processor.py:157} INFO - Started process (PID=17781) to work on /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:17:26.328+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/18_bash_sensor.py for tasks to queue
+[2023-08-24T06:17:26.330+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:17:26.329+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:17:26.337+0000] {processor.py:836} INFO - DAG(s) dict_keys(['18_bash_sensor']) retrieved from /opt/airflow/dags/18_bash_sensor.py
+[2023-08-24T06:17:26.371+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:17:26.371+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-24T06:17:26.409+0000] {logging_mixin.py:150} INFO - [2023-08-24T06:17:26.409+0000] {dag.py:3508} INFO - Setting next_dagrun for 18_bash_sensor to None, run_after=None
+[2023-08-24T06:17:26.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/18_bash_sensor.py took 0.118 seconds

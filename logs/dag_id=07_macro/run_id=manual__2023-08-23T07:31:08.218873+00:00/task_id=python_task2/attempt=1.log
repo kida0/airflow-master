@@ -1,0 +1,30 @@
+[2023-08-23T07:41:57.619+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 07_macro.python_task2 manual__2023-08-23T07:31:08.218873+00:00 [queued]>
+[2023-08-23T07:41:57.636+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 07_macro.python_task2 manual__2023-08-23T07:31:08.218873+00:00 [queued]>
+[2023-08-23T07:41:57.637+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-23T07:41:57.656+0000] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): python_task2> on 2023-08-23 07:31:08.218873+00:00
+[2023-08-23T07:41:57.665+0000] {standard_task_runner.py:57} INFO - Started process 6567 to run task
+[2023-08-23T07:41:57.668+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '07_macro', 'python_task2', 'manual__2023-08-23T07:31:08.218873+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/07_macro.py', '--cfg-path', '/tmp/tmpl2os7el3']
+[2023-08-23T07:41:57.669+0000] {standard_task_runner.py:85} INFO - Job 154: Subtask python_task2
+[2023-08-23T07:41:57.726+0000] {task_command.py:410} INFO - Running <TaskInstance: 07_macro.python_task2 manual__2023-08-23T07:31:08.218873+00:00 [running]> on host 05c492c53b17
+[2023-08-23T07:41:57.882+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='07_macro' AIRFLOW_CTX_TASK_ID='python_task2' AIRFLOW_CTX_EXECUTION_DATE='2023-08-23T07:31:08.218873+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-23T07:31:08.218873+00:00'
+[2023-08-23T07:41:57.883+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 220, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/07_macro.py", line 65, in get_datetime_calc
+    prev_month_day_first = data_interval_end.in_timezone("Asia/Seoul") + relativedelta(month=-1, day=1)
+  File "/home/airflow/.local/lib/python3.7/site-packages/dateutil/relativedelta.py", line 405, in __radd__
+    return self.__add__(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/dateutil/relativedelta.py", line 377, in __add__
+    day = min(calendar.monthrange(year, month)[1],
+  File "/usr/local/lib/python3.7/calendar.py", line 124, in monthrange
+    raise IllegalMonthError(month)
+calendar.IllegalMonthError: bad month number -1; must be 1-12
+[2023-08-23T07:41:57.894+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=07_macro, task_id=python_task2, execution_date=20230823T073108, start_date=20230823T074157, end_date=20230823T074157
+[2023-08-23T07:41:57.912+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 154 for task python_task2 (bad month number -1; must be 1-12; 6567)
+[2023-08-23T07:41:57.960+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-23T07:41:57.984+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

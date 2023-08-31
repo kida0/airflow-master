@@ -1,0 +1,42 @@
+[2023-08-31T03:16:25.189+0000] {processor.py:157} INFO - Started process (PID=53) to work on /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:16:25.190+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/11_branch_operator_with_decorator.py for tasks to queue
+[2023-08-31T03:16:25.191+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:16:25.201+0000] {processor.py:836} INFO - DAG(s) dict_keys(['11_branch_operator_with_decorator']) retrieved from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:16:25.239+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.238+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:25.297+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.297+0000] {dag.py:3508} INFO - Setting next_dagrun for 11_branch_operator_with_decorator to None, run_after=None
+[2023-08-31T03:16:25.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/11_branch_operator_with_decorator.py took 0.157 seconds
+[2023-08-31T03:16:55.402+0000] {processor.py:157} INFO - Started process (PID=124) to work on /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:16:55.403+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/11_branch_operator_with_decorator.py for tasks to queue
+[2023-08-31T03:16:55.405+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.404+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:16:55.413+0000] {processor.py:836} INFO - DAG(s) dict_keys(['11_branch_operator_with_decorator']) retrieved from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:16:55.442+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.442+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:55.470+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.470+0000] {dag.py:3508} INFO - Setting next_dagrun for 11_branch_operator_with_decorator to None, run_after=None
+[2023-08-31T03:16:55.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/11_branch_operator_with_decorator.py took 0.097 seconds
+[2023-08-31T03:17:26.125+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:17:26.126+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/11_branch_operator_with_decorator.py for tasks to queue
+[2023-08-31T03:17:26.127+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.127+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:17:26.136+0000] {processor.py:836} INFO - DAG(s) dict_keys(['11_branch_operator_with_decorator']) retrieved from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:17:26.170+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.170+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:26.217+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.216+0000] {dag.py:3508} INFO - Setting next_dagrun for 11_branch_operator_with_decorator to None, run_after=None
+[2023-08-31T03:17:26.259+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/11_branch_operator_with_decorator.py took 0.137 seconds
+[2023-08-31T03:17:56.866+0000] {processor.py:157} INFO - Started process (PID=266) to work on /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:17:56.867+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/11_branch_operator_with_decorator.py for tasks to queue
+[2023-08-31T03:17:56.869+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.868+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:17:56.877+0000] {processor.py:836} INFO - DAG(s) dict_keys(['11_branch_operator_with_decorator']) retrieved from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:17:56.917+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.917+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:56.954+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.954+0000] {dag.py:3508} INFO - Setting next_dagrun for 11_branch_operator_with_decorator to None, run_after=None
+[2023-08-31T03:17:56.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/11_branch_operator_with_decorator.py took 0.121 seconds
+[2023-08-31T03:18:27.534+0000] {processor.py:157} INFO - Started process (PID=337) to work on /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:18:27.535+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/11_branch_operator_with_decorator.py for tasks to queue
+[2023-08-31T03:18:27.537+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.536+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:18:27.546+0000] {processor.py:836} INFO - DAG(s) dict_keys(['11_branch_operator_with_decorator']) retrieved from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:18:27.590+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.589+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:27.654+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.653+0000] {dag.py:3508} INFO - Setting next_dagrun for 11_branch_operator_with_decorator to None, run_after=None
+[2023-08-31T03:18:27.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/11_branch_operator_with_decorator.py took 0.177 seconds
+[2023-08-31T03:18:57.831+0000] {processor.py:157} INFO - Started process (PID=408) to work on /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:18:57.832+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/11_branch_operator_with_decorator.py for tasks to queue
+[2023-08-31T03:18:57.833+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.833+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:18:57.841+0000] {processor.py:836} INFO - DAG(s) dict_keys(['11_branch_operator_with_decorator']) retrieved from /opt/airflow/dags/11_branch_operator_with_decorator.py
+[2023-08-31T03:18:57.884+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.884+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:57.916+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.916+0000] {dag.py:3508} INFO - Setting next_dagrun for 11_branch_operator_with_decorator to None, run_after=None
+[2023-08-31T03:18:57.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/11_branch_operator_with_decorator.py took 0.120 seconds

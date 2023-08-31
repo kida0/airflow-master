@@ -1,0 +1,78 @@
+[2023-08-24T05:16:34.454+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 17_base_hook.insert_postgres manual__2023-08-24T05:16:29.146510+00:00 [queued]>
+[2023-08-24T05:16:34.468+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 17_base_hook.insert_postgres manual__2023-08-24T05:16:29.146510+00:00 [queued]>
+[2023-08-24T05:16:34.468+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-24T05:16:34.493+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): insert_postgres> on 2023-08-24 05:16:29.146510+00:00
+[2023-08-24T05:16:34.501+0000] {standard_task_runner.py:57} INFO - Started process 1260 to run task
+[2023-08-24T05:16:34.505+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '17_base_hook', 'insert_postgres', 'manual__2023-08-24T05:16:29.146510+00:00', '--job-id', '217', '--raw', '--subdir', 'DAGS_FOLDER/17_base_hook.py', '--cfg-path', '/tmp/tmpkhcqlobj']
+[2023-08-24T05:16:34.506+0000] {standard_task_runner.py:85} INFO - Job 217: Subtask insert_postgres
+[2023-08-24T05:16:34.562+0000] {task_command.py:410} INFO - Running <TaskInstance: 17_base_hook.insert_postgres manual__2023-08-24T05:16:29.146510+00:00 [running]> on host 8c493a5ffb5d
+[2023-08-24T05:16:34.624+0000] {abstractoperator.py:598} ERROR - Exception rendering Jinja template for task 'insert_postgres', field 'op_kwargs'. Template: {'postgres_conn_id': 'conn-custom-postgres', 'table': 'NumCorona', 'file_name': "/opt/***/files/corona/{{ data_interval_end.in_timezon('Asia/Seoul') | ds_nodash }}/num_corona.csv"}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 590, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 540, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 19, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/sandbox.py", line 391, in call
+    if not __self.is_safe_callable(__obj):
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/sandbox.py", line 275, in is_safe_callable
+    getattr(obj, "unsafe_callable", False) or getattr(obj, "alters_data", False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 859, in __getattr__
+    return self._fail_with_undefined_error()
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'pendulum.datetime.DateTime object' has no attribute 'in_timezon'
+[2023-08-24T05:16:34.627+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1407, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1531, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2179, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1254, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 590, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 540, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 19, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/sandbox.py", line 391, in call
+    if not __self.is_safe_callable(__obj):
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/sandbox.py", line 275, in is_safe_callable
+    getattr(obj, "unsafe_callable", False) or getattr(obj, "alters_data", False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 859, in __getattr__
+    return self._fail_with_undefined_error()
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'pendulum.datetime.DateTime object' has no attribute 'in_timezon'
+[2023-08-24T05:16:34.640+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=17_base_hook, task_id=insert_postgres, execution_date=20230824T051629, start_date=20230824T051634, end_date=20230824T051634
+[2023-08-24T05:16:34.660+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 217 for task insert_postgres ('pendulum.datetime.DateTime object' has no attribute 'in_timezon'; 1260)
+[2023-08-24T05:16:34.678+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-24T05:16:34.702+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,616 @@
+[2023-08-23T23:48:58.553+0000] {processor.py:157} INFO - Started process (PID=9190) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:48:58.554+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:48:58.555+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:48:58.554+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:48:58.566+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:48:58.559+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:48:58.566+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:48:58.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.040 seconds
+[2023-08-23T23:49:28.632+0000] {processor.py:157} INFO - Started process (PID=9249) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:49:28.633+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:49:28.634+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:49:28.634+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:49:28.639+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:49:28.637+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:49:28.640+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:49:28.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:49:59.743+0000] {processor.py:157} INFO - Started process (PID=9313) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:49:59.744+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:49:59.745+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:49:59.745+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:49:59.751+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:49:59.749+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:49:59.751+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:49:59.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.037 seconds
+[2023-08-23T23:50:29.955+0000] {processor.py:157} INFO - Started process (PID=9370) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:50:29.956+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:50:29.957+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:50:29.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:50:29.963+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:50:29.961+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:50:29.964+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:50:29.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:51:00.538+0000] {processor.py:157} INFO - Started process (PID=9435) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:51:00.543+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:51:00.544+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:51:00.544+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:51:00.565+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:51:00.559+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:51:00.567+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:51:00.634+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.107 seconds
+[2023-08-23T23:51:31.240+0000] {processor.py:157} INFO - Started process (PID=9500) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:51:31.241+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:51:31.242+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:51:31.241+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:51:31.247+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:51:31.245+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:51:31.248+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:51:31.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.033 seconds
+[2023-08-23T23:52:01.527+0000] {processor.py:157} INFO - Started process (PID=9565) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:52:01.529+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:52:01.530+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:52:01.529+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:52:01.536+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:52:01.534+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:52:01.537+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:52:01.559+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:52:31.984+0000] {processor.py:157} INFO - Started process (PID=9630) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:52:31.985+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:52:31.986+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:52:31.986+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:52:31.991+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:52:31.990+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:52:31.992+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:52:32.017+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:53:02.612+0000] {processor.py:157} INFO - Started process (PID=9695) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:53:02.614+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:53:02.615+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:53:02.615+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:53:02.624+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:53:02.621+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:53:02.624+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:53:02.647+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.039 seconds
+[2023-08-23T23:53:33.047+0000] {processor.py:157} INFO - Started process (PID=9760) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:53:33.048+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:53:33.049+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:53:33.048+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:53:33.057+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:53:33.054+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:53:33.057+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:53:33.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:54:03.617+0000] {processor.py:157} INFO - Started process (PID=9825) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:54:03.618+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:54:03.619+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:54:03.619+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:54:03.626+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:54:03.623+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:54:03.626+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:54:03.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.034 seconds
+[2023-08-23T23:54:33.986+0000] {processor.py:157} INFO - Started process (PID=9890) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:54:33.986+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:54:33.987+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:54:33.987+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:54:33.993+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:54:33.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:54:33.994+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:54:34.017+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:55:04.423+0000] {processor.py:157} INFO - Started process (PID=9955) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:55:04.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:55:04.425+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:55:04.425+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:55:04.431+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:55:04.429+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:55:04.431+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:55:04.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.036 seconds
+[2023-08-23T23:55:34.852+0000] {processor.py:157} INFO - Started process (PID=10020) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:55:34.852+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:55:34.853+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:55:34.853+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:55:34.860+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:55:34.858+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:55:34.861+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:55:34.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.046 seconds
+[2023-08-23T23:56:05.594+0000] {processor.py:157} INFO - Started process (PID=10085) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:56:05.595+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:56:05.596+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:56:05.596+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:56:05.604+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:56:05.601+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:56:05.604+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:56:05.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.039 seconds
+[2023-08-23T23:56:36.196+0000] {processor.py:157} INFO - Started process (PID=10150) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:56:36.197+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:56:36.198+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:56:36.197+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:56:36.205+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:56:36.202+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:56:36.205+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:56:36.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.035 seconds
+[2023-08-23T23:57:06.551+0000] {processor.py:157} INFO - Started process (PID=10215) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:57:06.553+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:57:06.554+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:57:06.554+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:57:06.561+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:57:06.559+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:57:06.562+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:57:06.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.044 seconds
+[2023-08-23T23:57:36.755+0000] {processor.py:157} INFO - Started process (PID=10280) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:57:36.756+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:57:36.757+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:57:36.757+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:57:36.762+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:57:36.761+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:57:36.763+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:57:36.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.034 seconds
+[2023-08-23T23:58:07.108+0000] {processor.py:157} INFO - Started process (PID=10346) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:58:07.109+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:58:07.110+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:58:07.110+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:58:07.117+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:58:07.114+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:58:07.118+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:58:07.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.041 seconds
+[2023-08-23T23:58:37.332+0000] {processor.py:157} INFO - Started process (PID=10411) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:58:37.334+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:58:37.335+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:58:37.334+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:58:37.342+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:58:37.340+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:58:37.343+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:58:37.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.038 seconds
+[2023-08-23T23:59:07.646+0000] {processor.py:157} INFO - Started process (PID=10477) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:59:07.648+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:59:07.649+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:59:07.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:59:07.657+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:59:07.655+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:59:07.658+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:59:07.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.038 seconds
+[2023-08-23T23:59:37.966+0000] {processor.py:157} INFO - Started process (PID=10542) to work on /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:59:37.969+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/13_group_and_label.py for tasks to queue
+[2023-08-23T23:59:37.971+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:59:37.970+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:59:37.985+0000] {logging_mixin.py:150} INFO - [2023-08-23T23:59:37.982+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/13_group_and_label.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/13_group_and_label.py", line 50, in <module>
+    op_kwargs={"text": "TaskGroup의 두 번째 task"}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2370, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-23T23:59:37.986+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/13_group_and_label.py
+[2023-08-23T23:59:38.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/13_group_and_label.py took 0.066 seconds

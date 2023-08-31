@@ -1,0 +1,2 @@
+[2023-08-18T04:58:58.653+0000] {taskinstance.py:1097} INFO - Dependencies not met for <TaskInstance: dags_external_task_sensor.external_task_sensor_c manual__2023-08-18T04:55:47.721833+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2023-08-18T04:58:58.669+0000] {local_task_job_runner.py:154} INFO - Task is not able to be run

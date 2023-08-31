@@ -1,0 +1,42 @@
+[2023-08-31T03:16:24.835+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:16:24.836+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/15_trigger_dag_run_operator.py for tasks to queue
+[2023-08-31T03:16:24.838+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:24.837+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:16:24.846+0000] {processor.py:836} INFO - DAG(s) dict_keys(['15_trigger_dag_run_operator']) retrieved from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:16:24.879+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:24.879+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:24.918+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:24.918+0000] {dag.py:3508} INFO - Setting next_dagrun for 15_trigger_dag_run_operator to None, run_after=None
+[2023-08-31T03:16:24.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/15_trigger_dag_run_operator.py took 0.117 seconds
+[2023-08-31T03:16:55.046+0000] {processor.py:157} INFO - Started process (PID=119) to work on /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:16:55.048+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/15_trigger_dag_run_operator.py for tasks to queue
+[2023-08-31T03:16:55.049+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.049+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:16:55.054+0000] {processor.py:836} INFO - DAG(s) dict_keys(['15_trigger_dag_run_operator']) retrieved from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:16:55.082+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.082+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:55.118+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.117+0000] {dag.py:3508} INFO - Setting next_dagrun for 15_trigger_dag_run_operator to None, run_after=None
+[2023-08-31T03:16:55.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/15_trigger_dag_run_operator.py took 0.115 seconds
+[2023-08-31T03:17:25.644+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:17:25.644+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/15_trigger_dag_run_operator.py for tasks to queue
+[2023-08-31T03:17:25.645+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.645+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:17:25.651+0000] {processor.py:836} INFO - DAG(s) dict_keys(['15_trigger_dag_run_operator']) retrieved from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:17:25.677+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.677+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:25.715+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.714+0000] {dag.py:3508} INFO - Setting next_dagrun for 15_trigger_dag_run_operator to None, run_after=None
+[2023-08-31T03:17:25.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/15_trigger_dag_run_operator.py took 0.108 seconds
+[2023-08-31T03:17:56.335+0000] {processor.py:157} INFO - Started process (PID=261) to work on /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:17:56.337+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/15_trigger_dag_run_operator.py for tasks to queue
+[2023-08-31T03:17:56.338+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.337+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:17:56.344+0000] {processor.py:836} INFO - DAG(s) dict_keys(['15_trigger_dag_run_operator']) retrieved from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:17:56.373+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.372+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:56.408+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.408+0000] {dag.py:3508} INFO - Setting next_dagrun for 15_trigger_dag_run_operator to None, run_after=None
+[2023-08-31T03:17:56.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/15_trigger_dag_run_operator.py took 0.116 seconds
+[2023-08-31T03:18:27.114+0000] {processor.py:157} INFO - Started process (PID=332) to work on /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:18:27.117+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/15_trigger_dag_run_operator.py for tasks to queue
+[2023-08-31T03:18:27.118+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:18:27.127+0000] {processor.py:836} INFO - DAG(s) dict_keys(['15_trigger_dag_run_operator']) retrieved from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:18:27.183+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.183+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:27.235+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.235+0000] {dag.py:3508} INFO - Setting next_dagrun for 15_trigger_dag_run_operator to None, run_after=None
+[2023-08-31T03:18:27.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/15_trigger_dag_run_operator.py took 0.185 seconds
+[2023-08-31T03:18:57.406+0000] {processor.py:157} INFO - Started process (PID=403) to work on /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:18:57.407+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/15_trigger_dag_run_operator.py for tasks to queue
+[2023-08-31T03:18:57.408+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.408+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:18:57.415+0000] {processor.py:836} INFO - DAG(s) dict_keys(['15_trigger_dag_run_operator']) retrieved from /opt/airflow/dags/15_trigger_dag_run_operator.py
+[2023-08-31T03:18:57.444+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.444+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:57.481+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.481+0000] {dag.py:3508} INFO - Setting next_dagrun for 15_trigger_dag_run_operator to None, run_after=None
+[2023-08-31T03:18:57.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/15_trigger_dag_run_operator.py took 0.114 seconds

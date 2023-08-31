@@ -1,0 +1,28 @@
+[2023-08-24T07:07:04.918+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 18_slack_callback.task_sleep_90 manual__2023-08-24T07:07:01.551714+00:00 [queued]>
+[2023-08-24T07:07:04.933+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 18_slack_callback.task_sleep_90 manual__2023-08-24T07:07:01.551714+00:00 [queued]>
+[2023-08-24T07:07:04.933+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-24T07:07:04.957+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): task_sleep_90> on 2023-08-24 07:07:01.551714+00:00
+[2023-08-24T07:07:04.966+0000] {standard_task_runner.py:57} INFO - Started process 3196 to run task
+[2023-08-24T07:07:04.970+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '18_slack_callback', 'task_sleep_90', 'manual__2023-08-24T07:07:01.551714+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/18_slack_callback.py', '--cfg-path', '/tmp/tmp2gz9hdlu']
+[2023-08-24T07:07:04.971+0000] {standard_task_runner.py:85} INFO - Job 226: Subtask task_sleep_90
+[2023-08-24T07:07:05.035+0000] {task_command.py:410} INFO - Running <TaskInstance: 18_slack_callback.task_sleep_90 manual__2023-08-24T07:07:01.551714+00:00 [running]> on host 8c493a5ffb5d
+[2023-08-24T07:07:05.155+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='18_slack_callback' AIRFLOW_CTX_TASK_ID='task_sleep_90' AIRFLOW_CTX_EXECUTION_DATE='2023-08-24T07:07:01.551714+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-24T07:07:01.551714+00:00'
+[2023-08-24T07:07:05.164+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-24T07:07:05.165+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 90']
+[2023-08-24T07:07:05.198+0000] {subprocess.py:86} INFO - Output:
+[2023-08-24T07:08:05.161+0000] {timeout.py:68} ERROR - Process timed out, PID: 3196
+[2023-08-24T07:08:05.164+0000] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2023-08-24T07:08:05.183+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 205, in execute
+    cwd=self.cwd,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 3196
+[2023-08-24T07:08:05.198+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=18_slack_callback, task_id=task_sleep_90, execution_date=20230824T070701, start_date=20230824T070704, end_date=20230824T070805
+[2023-08-24T07:08:05.208+0000] {base.py:73} INFO - Using connection ID 'conn-slack-***-bot' for task execution.
+[2023-08-24T07:08:05.690+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 226 for task task_sleep_90 (Timeout, PID: 3196; 3196)
+[2023-08-24T07:08:05.710+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-24T07:08:05.752+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

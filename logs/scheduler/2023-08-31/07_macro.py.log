@@ -1,0 +1,42 @@
+[2023-08-31T03:16:25.345+0000] {processor.py:157} INFO - Started process (PID=54) to work on /opt/airflow/dags/07_macro.py
+[2023-08-31T03:16:25.347+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/07_macro.py for tasks to queue
+[2023-08-31T03:16:25.349+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.348+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:16:25.362+0000] {processor.py:836} INFO - DAG(s) dict_keys(['07_macro']) retrieved from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:16:25.400+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.399+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:25.445+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.445+0000] {dag.py:3508} INFO - Setting next_dagrun for 07_macro to 2023-08-30T15:01:00+00:00, run_after=2023-09-29T15:01:00+00:00
+[2023-08-31T03:16:25.478+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/07_macro.py took 0.143 seconds
+[2023-08-31T03:16:55.506+0000] {processor.py:157} INFO - Started process (PID=125) to work on /opt/airflow/dags/07_macro.py
+[2023-08-31T03:16:55.508+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/07_macro.py for tasks to queue
+[2023-08-31T03:16:55.508+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.508+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:16:55.517+0000] {processor.py:836} INFO - DAG(s) dict_keys(['07_macro']) retrieved from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:16:55.543+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.543+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:55.579+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.579+0000] {dag.py:3508} INFO - Setting next_dagrun for 07_macro to 2023-08-30T15:01:00+00:00, run_after=2023-09-29T15:01:00+00:00
+[2023-08-31T03:16:55.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/07_macro.py took 0.102 seconds
+[2023-08-31T03:17:26.134+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/07_macro.py
+[2023-08-31T03:17:26.135+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/07_macro.py for tasks to queue
+[2023-08-31T03:17:26.136+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.136+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:17:26.148+0000] {processor.py:836} INFO - DAG(s) dict_keys(['07_macro']) retrieved from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:17:26.187+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.186+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:26.234+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:26.234+0000] {dag.py:3508} INFO - Setting next_dagrun for 07_macro to 2023-08-30T15:01:00+00:00, run_after=2023-09-29T15:01:00+00:00
+[2023-08-31T03:17:26.275+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/07_macro.py took 0.145 seconds
+[2023-08-31T03:17:56.874+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/07_macro.py
+[2023-08-31T03:17:56.876+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/07_macro.py for tasks to queue
+[2023-08-31T03:17:56.878+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.877+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:17:56.892+0000] {processor.py:836} INFO - DAG(s) dict_keys(['07_macro']) retrieved from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:17:56.924+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.924+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:56.965+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.965+0000] {dag.py:3508} INFO - Setting next_dagrun for 07_macro to 2023-08-30T15:01:00+00:00, run_after=2023-09-29T15:01:00+00:00
+[2023-08-31T03:17:56.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/07_macro.py took 0.120 seconds
+[2023-08-31T03:18:27.708+0000] {processor.py:157} INFO - Started process (PID=338) to work on /opt/airflow/dags/07_macro.py
+[2023-08-31T03:18:27.710+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/07_macro.py for tasks to queue
+[2023-08-31T03:18:27.712+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.711+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:18:27.724+0000] {processor.py:836} INFO - DAG(s) dict_keys(['07_macro']) retrieved from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:18:27.762+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.762+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:27.818+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.818+0000] {dag.py:3508} INFO - Setting next_dagrun for 07_macro to 2023-08-30T15:01:00+00:00, run_after=2023-09-29T15:01:00+00:00
+[2023-08-31T03:18:27.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/07_macro.py took 0.159 seconds
+[2023-08-31T03:18:57.973+0000] {processor.py:157} INFO - Started process (PID=409) to work on /opt/airflow/dags/07_macro.py
+[2023-08-31T03:18:57.975+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/07_macro.py for tasks to queue
+[2023-08-31T03:18:57.976+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.976+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:18:57.992+0000] {processor.py:836} INFO - DAG(s) dict_keys(['07_macro']) retrieved from /opt/airflow/dags/07_macro.py
+[2023-08-31T03:18:58.051+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:58.051+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:58.098+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:58.098+0000] {dag.py:3508} INFO - Setting next_dagrun for 07_macro to 2023-08-30T15:01:00+00:00, run_after=2023-09-29T15:01:00+00:00
+[2023-08-31T03:18:58.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/07_macro.py took 0.166 seconds

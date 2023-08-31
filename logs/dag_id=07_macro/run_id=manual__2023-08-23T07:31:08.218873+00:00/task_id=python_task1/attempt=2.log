@@ -1,0 +1,74 @@
+[2023-08-23T07:37:47.608+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 07_macro.python_task1 manual__2023-08-23T07:31:08.218873+00:00 [queued]>
+[2023-08-23T07:37:47.621+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 07_macro.python_task1 manual__2023-08-23T07:31:08.218873+00:00 [queued]>
+[2023-08-23T07:37:47.622+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-08-23T07:37:47.649+0000] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): python_task1> on 2023-08-23 07:31:08.218873+00:00
+[2023-08-23T07:37:47.692+0000] {standard_task_runner.py:57} INFO - Started process 6480 to run task
+[2023-08-23T07:37:47.697+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '07_macro', 'python_task1', 'manual__2023-08-23T07:31:08.218873+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/07_macro.py', '--cfg-path', '/tmp/tmpdhdadz5n']
+[2023-08-23T07:37:47.698+0000] {standard_task_runner.py:85} INFO - Job 149: Subtask python_task1
+[2023-08-23T07:37:47.757+0000] {task_command.py:410} INFO - Running <TaskInstance: 07_macro.python_task1 manual__2023-08-23T07:31:08.218873+00:00 [running]> on host 05c492c53b17
+[2023-08-23T07:37:47.815+0000] {abstractoperator.py:598} ERROR - Exception rendering Jinja template for task 'python_task1', field 'templates_dict'. Template: {'start_date': "{{ (data_interval_end.in_timezone('Asia/Seoul') + macros.dateutil.relativedelta.relativedelta(month=-1, day=1)) | ds }}", 'end_date': "{{ (data_interval_end.in_timezone('Asia/Seoul').replace(day=1) + macros.dateutil.relativedelta.relativedelta(days=-1)) | ds }}"}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 590, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 540, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 19, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/dateutil/relativedelta.py", line 405, in __radd__
+    return self.__add__(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/dateutil/relativedelta.py", line 377, in __add__
+    day = min(calendar.monthrange(year, month)[1],
+  File "/usr/local/lib/python3.7/calendar.py", line 124, in monthrange
+    raise IllegalMonthError(month)
+calendar.IllegalMonthError: bad month number -1; must be 1-12
+[2023-08-23T07:37:47.819+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1407, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1531, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2179, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1254, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 590, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 540, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 19, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/dateutil/relativedelta.py", line 405, in __radd__
+    return self.__add__(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/dateutil/relativedelta.py", line 377, in __add__
+    day = min(calendar.monthrange(year, month)[1],
+  File "/usr/local/lib/python3.7/calendar.py", line 124, in monthrange
+    raise IllegalMonthError(month)
+calendar.IllegalMonthError: bad month number -1; must be 1-12
+[2023-08-23T07:37:47.830+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=07_macro, task_id=python_task1, execution_date=20230823T073108, start_date=20230823T073747, end_date=20230823T073747
+[2023-08-23T07:37:47.847+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 149 for task python_task1 (bad month number -1; must be 1-12; 6480)
+[2023-08-23T07:37:47.869+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-23T07:37:47.903+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,42 @@
+[2023-08-31T03:16:25.019+0000] {processor.py:157} INFO - Started process (PID=51) to work on /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:16:25.020+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/14_group_and_label.py for tasks to queue
+[2023-08-31T03:16:25.021+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.021+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:16:25.041+0000] {processor.py:836} INFO - DAG(s) dict_keys(['14_group_and_label']) retrieved from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:16:25.091+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.090+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:25.129+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:25.129+0000] {dag.py:3508} INFO - Setting next_dagrun for 14_group_and_label to None, run_after=None
+[2023-08-31T03:16:25.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/14_group_and_label.py took 0.148 seconds
+[2023-08-31T03:16:55.228+0000] {processor.py:157} INFO - Started process (PID=122) to work on /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:16:55.231+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/14_group_and_label.py for tasks to queue
+[2023-08-31T03:16:55.235+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.234+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:16:55.254+0000] {processor.py:836} INFO - DAG(s) dict_keys(['14_group_and_label']) retrieved from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:16:55.295+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.294+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:16:55.335+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:16:55.335+0000] {dag.py:3508} INFO - Setting next_dagrun for 14_group_and_label to None, run_after=None
+[2023-08-31T03:16:55.371+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/14_group_and_label.py took 0.147 seconds
+[2023-08-31T03:17:25.885+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:17:25.886+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/14_group_and_label.py for tasks to queue
+[2023-08-31T03:17:25.888+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.887+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:17:25.896+0000] {processor.py:836} INFO - DAG(s) dict_keys(['14_group_and_label']) retrieved from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:17:25.923+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.923+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:25.961+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:25.961+0000] {dag.py:3508} INFO - Setting next_dagrun for 14_group_and_label to None, run_after=None
+[2023-08-31T03:17:25.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/14_group_and_label.py took 0.108 seconds
+[2023-08-31T03:17:56.606+0000] {processor.py:157} INFO - Started process (PID=264) to work on /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:17:56.607+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/14_group_and_label.py for tasks to queue
+[2023-08-31T03:17:56.608+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:17:56.616+0000] {processor.py:836} INFO - DAG(s) dict_keys(['14_group_and_label']) retrieved from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:17:56.647+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.647+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:17:56.688+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:17:56.688+0000] {dag.py:3508} INFO - Setting next_dagrun for 14_group_and_label to None, run_after=None
+[2023-08-31T03:17:56.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/14_group_and_label.py took 0.117 seconds
+[2023-08-31T03:18:27.362+0000] {processor.py:157} INFO - Started process (PID=335) to work on /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:18:27.363+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/14_group_and_label.py for tasks to queue
+[2023-08-31T03:18:27.365+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.364+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:18:27.377+0000] {processor.py:836} INFO - DAG(s) dict_keys(['14_group_and_label']) retrieved from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:18:27.444+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.443+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:27.477+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:27.477+0000] {dag.py:3508} INFO - Setting next_dagrun for 14_group_and_label to None, run_after=None
+[2023-08-31T03:18:27.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/14_group_and_label.py took 0.151 seconds
+[2023-08-31T03:18:57.667+0000] {processor.py:157} INFO - Started process (PID=406) to work on /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:18:57.668+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/14_group_and_label.py for tasks to queue
+[2023-08-31T03:18:57.670+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.669+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:18:57.679+0000] {processor.py:836} INFO - DAG(s) dict_keys(['14_group_and_label']) retrieved from /opt/airflow/dags/14_group_and_label.py
+[2023-08-31T03:18:57.716+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.716+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-31T03:18:57.756+0000] {logging_mixin.py:150} INFO - [2023-08-31T03:18:57.756+0000] {dag.py:3508} INFO - Setting next_dagrun for 14_group_and_label to None, run_after=None
+[2023-08-31T03:18:57.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/14_group_and_label.py took 0.136 seconds

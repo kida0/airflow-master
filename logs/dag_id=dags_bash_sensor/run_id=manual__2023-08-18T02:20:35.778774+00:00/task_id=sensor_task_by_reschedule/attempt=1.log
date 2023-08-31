@@ -1,0 +1,176 @@
+[2023-08-18T02:20:37.542+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:20:37.556+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:20:37.556+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:20:37.579+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:20:37.590+0000] {standard_task_runner.py:57} INFO - Started process 353 to run task
+[2023-08-18T02:20:37.594+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmp26be966_']
+[2023-08-18T02:20:37.597+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask sensor_task_by_reschedule
+[2023-08-18T02:20:37.707+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:20:37.860+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:20:37.871+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:20:37.873+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpz5br4wz4//tmp/***tmpz5br4wz4/sensor_task_by_reschedule0ytra2vi
+[2023-08-18T02:20:37.873+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:20:37.888+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:20:37.889+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:20:37.889+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:20:37.889+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:20:37.918+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-08-18T02:20:37.928+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:20:37.965+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-18T02:23:39.485+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:23:39.501+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:23:39.502+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:23:39.523+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:23:39.531+0000] {standard_task_runner.py:57} INFO - Started process 407 to run task
+[2023-08-18T02:23:39.534+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmpk1hcaxb3']
+[2023-08-18T02:23:39.534+0000] {standard_task_runner.py:85} INFO - Job 14: Subtask sensor_task_by_reschedule
+[2023-08-18T02:23:39.591+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:23:39.697+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:23:39.709+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:23:39.710+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmp3q1rja5b//tmp/***tmp3q1rja5b/sensor_task_by_reschedulec36qzdci
+[2023-08-18T02:23:39.711+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:23:39.727+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:23:39.728+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:23:39.729+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:23:39.729+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:23:39.765+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-08-18T02:23:39.787+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:23:39.836+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-18T02:26:40.906+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:26:40.927+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:26:40.927+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:26:40.945+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:26:40.952+0000] {standard_task_runner.py:57} INFO - Started process 466 to run task
+[2023-08-18T02:26:40.955+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmpfi45e15k']
+[2023-08-18T02:26:40.956+0000] {standard_task_runner.py:85} INFO - Job 15: Subtask sensor_task_by_reschedule
+[2023-08-18T02:26:41.008+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:26:41.131+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:26:41.146+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:26:41.148+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpl2djoudy//tmp/***tmpl2djoudy/sensor_task_by_reschedulejji0xkak
+[2023-08-18T02:26:41.148+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:26:41.165+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:26:41.166+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:26:41.166+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:26:41.166+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:26:41.194+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-08-18T02:26:41.209+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:26:41.246+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-18T02:27:02.825+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:27:02.846+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:27:02.846+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:27:02.868+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:27:02.876+0000] {standard_task_runner.py:57} INFO - Started process 482 to run task
+[2023-08-18T02:27:02.880+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmpu2ki89li']
+[2023-08-18T02:27:02.881+0000] {standard_task_runner.py:85} INFO - Job 16: Subtask sensor_task_by_reschedule
+[2023-08-18T02:27:02.955+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:27:03.077+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:27:03.089+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:27:03.090+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpzr85f2cx//tmp/***tmpzr85f2cx/sensor_task_by_reschedulepfly0w03
+[2023-08-18T02:27:03.091+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:27:03.103+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:27:03.104+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:27:03.106+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:27:03.107+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:27:03.135+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-08-18T02:27:03.172+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:27:03.231+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-18T02:30:04.463+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:30:04.483+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:30:04.484+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:30:04.504+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:30:04.512+0000] {standard_task_runner.py:57} INFO - Started process 546 to run task
+[2023-08-18T02:30:04.516+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmp9wg2b3jq']
+[2023-08-18T02:30:04.518+0000] {standard_task_runner.py:85} INFO - Job 18: Subtask sensor_task_by_reschedule
+[2023-08-18T02:30:04.583+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:30:04.693+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:30:04.705+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:30:04.706+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmp1uw2c1dt//tmp/***tmp1uw2c1dt/sensor_task_by_reschedulevy9j58f5
+[2023-08-18T02:30:04.707+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:30:04.721+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:30:04.722+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:30:04.722+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:30:04.723+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:30:04.754+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-08-18T02:30:04.768+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:30:04.811+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-18T02:33:06.975+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:33:06.992+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:33:06.992+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:33:07.015+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:33:07.023+0000] {standard_task_runner.py:57} INFO - Started process 595 to run task
+[2023-08-18T02:33:07.030+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmpocfez1hh']
+[2023-08-18T02:33:07.031+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask sensor_task_by_reschedule
+[2023-08-18T02:33:07.113+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:33:07.231+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:33:07.245+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:33:07.247+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpw0u80uhl//tmp/***tmpw0u80uhl/sensor_task_by_reschedule3ni_tke8
+[2023-08-18T02:33:07.248+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:33:07.265+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:33:07.266+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:33:07.266+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:33:07.267+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:33:07.298+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2023-08-18T02:33:07.320+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:33:07.370+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-18T02:36:09.601+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:36:09.619+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [queued]>
+[2023-08-18T02:36:09.620+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-08-18T02:36:09.644+0000] {taskinstance.py:1327} INFO - Executing <Task(BashSensor): sensor_task_by_reschedule> on 2023-08-18 02:20:35.778774+00:00
+[2023-08-18T02:36:09.653+0000] {standard_task_runner.py:57} INFO - Started process 653 to run task
+[2023-08-18T02:36:09.657+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_sensor', 'sensor_task_by_reschedule', 'manual__2023-08-18T02:20:35.778774+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_sensor.py', '--cfg-path', '/tmp/tmpu7dmfwvh']
+[2023-08-18T02:36:09.658+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask sensor_task_by_reschedule
+[2023-08-18T02:36:09.726+0000] {task_command.py:410} INFO - Running <TaskInstance: dags_bash_sensor.sensor_task_by_reschedule manual__2023-08-18T02:20:35.778774+00:00 [running]> on host 05c492c53b17
+[2023-08-18T02:36:09.838+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_bash_sensor' AIRFLOW_CTX_TASK_ID='sensor_task_by_reschedule' AIRFLOW_CTX_EXECUTION_DATE='2023-08-18T02:20:35.778774+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-18T02:20:35.778774+00:00'
+[2023-08-18T02:36:09.849+0000] {bash.py:70} INFO - Tmp dir root location: /tmp
+[2023-08-18T02:36:09.852+0000] {bash.py:77} INFO - Temporary script location: /tmp/***tmpytncu_w7//tmp/***tmpytncu_w7/sensor_task_by_reschedule9vjvz1uo
+[2023-08-18T02:36:09.852+0000] {bash.py:78} INFO - Running command: 
+            echo $FILE && 
+            if [ -f $FILE ]; then 
+                exit 0 
+            else 
+                exit 1 
+            fi
+[2023-08-18T02:36:09.866+0000] {bash.py:90} INFO - Output:
+[2023-08-18T02:36:09.867+0000] {bash.py:92} INFO - /opt/***/files/tvCorona19VaccinestatNew/20230818/tvCorona19Vaccinestatnew.csv
+[2023-08-18T02:36:09.868+0000] {bash.py:94} INFO - Command exited with return code 1
+[2023-08-18T02:36:09.868+0000] {bash.py:110} INFO - Non-zero return code and no retry code set, will retry later
+[2023-08-18T02:36:09.868+0000] {taskinstance.py:1431} INFO - Sensor has timed out; run duration of 546.863059 seconds exceeds the specified timeout of 540.
+[2023-08-18T02:36:09.880+0000] {taskinstance.py:1350} INFO - Marking task as SKIPPED. dag_id=dags_bash_sensor, task_id=sensor_task_by_reschedule, execution_date=20230818T022035, start_date=20230818T023609, end_date=20230818T023609
+[2023-08-18T02:36:09.909+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-18T02:36:09.934+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
